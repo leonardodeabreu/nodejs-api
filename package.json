@@ -1,0 +1,29 @@
+{
+  "name": "tandemploy-test",
+  "version": "1.0.0",
+  "description": "Microservice to test basic http methods.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "author": "Leonardo Abreu",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "uuid": "^3.3.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
